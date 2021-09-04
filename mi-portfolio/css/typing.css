@@ -1,0 +1,51 @@
+.typing-text
+{
+    
+    margin:40px 0;
+
+}
+
+.typing-text p 
+{
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing:0.1rem;
+    text-align: left;
+
+}
+
+.typed-text
+{
+    margin-left: 15px;
+    font-weight: normal;
+    color: #57CC99;
+    
+
+}
+       
+       
+       
+.cursor
+{
+    
+    display: inline-block;
+    width:3px;
+    background-color:#ccc;
+    margin-left:0.3rem;
+    animation: blink 1s infinite;
+}
+
+.cursor .typing
+{
+    animation: none;
+}
+@keyframes blink {
+
+    0%{background-color:#ccc;}
+    49%{background-color:#ccc;}
+
+    50%{background-color:transparent;}
+    99%{background-color:transparent;}
+
+    100%{background-color:#ccc}
+}

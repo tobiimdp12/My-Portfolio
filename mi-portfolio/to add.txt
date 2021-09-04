@@ -1,0 +1,19 @@
+
+pagina de carga 
+{
+welcome to
+[pasan 3 segundos]
+my world
+}
+texto que cambia developer designer creative proactive
+
+boton descargar cv[hecho]
+
+scroll paralax
+
+armar tarjetas proyectos
+
+cambiar de tema
+
+cambiar de idioma
+

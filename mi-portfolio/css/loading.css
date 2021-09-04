@@ -1,0 +1,122 @@
+.loading-bg
+{
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;    
+    opacity: 0;
+    box-shadow: 0px -3px 52px 10px rgba(255, 255, 255, 0.43) inset;
+    -webkit-box-shadow: 0px -3px 52px 10px rgba(255, 255, 255, 0.43) inset;
+    -moz-box-shadow: 0px -3px 52px 10px rgba(255, 255, 255, 0.43) inset;
+
+    -webkit-transition: all 0.6s linear(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s linear(0.165, 0.84, 0.44, 1);
+}
+
+.loading-text 
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+.animated
+
+{
+    animation: fadeIn 8s linear;
+}
+
+
+.loading-text-one
+{
+    display: absolute;
+    font-size:24px;
+    
+}
+
+.loading-text-two
+{
+    display: absolute;
+    text-transform: uppercase;
+    font-size:44px;
+}
+@keyframes fadeIn {
+
+    0% 
+    { 
+        opacity: 1; 
+        box-shadow: 0px -3px 52px 10px #80ED99 inset;
+        -webkit-box-shadow: 0px -3px 52px 10px #80ED99 inset;
+        -moz-box-shadow: 0px -3px 52px 10px #80ED99 inset;
+    }
+    10% 
+    { 
+        opacity: 1; 
+
+    }
+    20% 
+    { 
+        opacity: 1; 
+       box-shadow: 0px -3px 52px 10px #22577A inset;
+        -webkit-box-shadow: 0px -3px 52px 10px #22577A inset;
+        -moz-box-shadow: 0px -3px 52px 10px #22577A inset;  
+           
+    
+    }
+    30% 
+    { 
+        opacity: 1; 
+    }
+    40% 
+    { 
+        opacity: 1; 
+
+        box-shadow: 0px -3px 52px 10px #80ED99 inset;
+        -webkit-box-shadow: 0px -3px 52px 10px #80ED99 inset;
+        -moz-box-shadow: 0px -3px 52px 10px #80ED99 inset;
+    }
+    50% 
+    { 
+        opacity: 1; 
+    }
+    60% 
+    { 
+        opacity: 1; 
+        box-shadow: 0px -3px 52px 10px #22577A  inset;      
+        -webkit-box-shadow: 0px -3px 52px 10px #22577A inset;
+
+        -moz-box-shadow: 0px -3px 52px 10px #22577A inset ;
+    }
+    70% 
+    {
+         opacity: 1; 
+    }
+    80% 
+    { 
+        opacity: 1; 
+        box-shadow: 0px -3px 52px 10px #80ED99 inset;
+        -webkit-box-shadow: 0px -3px 52px 10px #80ED99 inset;
+        -moz-box-shadow: 0px -3px 52px 10px #80ED99 inset;
+    }
+    90% 
+    { 
+        opacity: 1; 
+    }
+    99% 
+    { 
+        opacity: 0; 
+        box-shadow: 0px -3px 52px 10px #22577A inset;
+        -webkit-box-shadow: 0px -3px 52px 10px#22577A  inset;
+        -moz-box-shadow: 0px -3px 52px 10px #22577A inset;
+    }
+    100% 
+    {
+        opacity: 0; 
+        
+    }
+}
+
